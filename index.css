@@ -1,0 +1,185 @@
+/* p1.redbear.gq Stylesheets */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+body {
+    background-color: #22272b;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    background-image: url("https://images.unsplash.com/photo-1534629938736-b1b076531d3b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=100");
+    background-size: cover !important;
+    background-position: center center absolute !important;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+b,
+i {
+    margin: 0px;
+}
+
+.intro {
+    position: fixed;
+    background-color: #055dc2;
+    z-index: 98;
+    width: 100%;
+    height: 100%;
+}
+
+.introcontent {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: white;
+    z-index: 98;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.refresh {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    background-color: #0478fd;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    padding: 3px 10px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.info {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #22272b;
+    width: 600px;
+    height: 400px;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+.card {
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, 1);
+    backdrop-filter: blur(10px);
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 380px;
+    width: 240px;
+    border-radius: 12px;
+    transform: scale(1);
+}
+
+.card .content {
+    margin: 10px;
+}
+
+.card .day {
+    user-select: none;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.card .date {
+    user-select: none;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.card .location {
+    user-select: none;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.card .location .material-icons-outlined {
+    font-size: 15px;
+    position: relative;
+    top: 2px;
+}
+
+.card .temp {
+    user-select: none;
+    font-weight: 600;
+    position: absolute;
+    left: 15px;
+    bottom: -7px;
+    font-size: 70px;
+}
+
+.information {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 380px;
+    width: 370px;
+    border-radius: 12px;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    backdrop-filter: blur(10px);
+}
+
+.information .content {
+    margin: 5px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.information .content button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    background-color: #0478fd;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    padding: 3px 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cards-4days {
+    display: flex;
+    width: 320px;
+}
+
+.cards-4days .card-t {
+    color: white;
+    border-radius: 12px;
+    background-color: #22272b;
+    width: 70px;
+    height: 100px;
+    margin: 5px;
+}
+
+.cards-4days .card-t .day {
+    position: relative;
+    top: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+}
+
+.cards-4days .card-t .temp {
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>redbear weather app</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <meta property="og:title" content="redbear weather app" />
+    <meta property="og:url" content="https://p1.redbear.gq" />
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/88698560?s=400&u=b4933028f7272936eed29dd7a657ecd6f7c02c39&v=4" />
+    <meta property="og:description" content="Simple weather application using html/js/css and a few external APIs.">
+</head>
+
+<body>
+    <div class="intro"></div>
+    <div class="introcontent">
+        <h1>Weather Application</h1>
+        <hr>
+        <p>github.com/redbaer</p>
+    </div>
+    <button class="refresh">Refresh Information</button>
+    <div class="info">
+        <div class="card">
+            <div class="content">
+                <h2 class="day" id="c-day">--</h2>
+                <h3 class="date" id="c-date">--</h3>
+                <h3 class="location" id="c-location"><span class="material-icons-outlined">place</span> <span id="c-city">--</span></h3>
+                <h1 class="temp" id="c-temp">--</h1>
+            </div>
+        </div>
+        <div class="information">
+            <div class="content">
+                <h1>Weekly</h1>
+                <div class="cards-4days">
+                    <div class="card-t" id="1">
+                        <p class="day">--</p>
+                        <p class="temp">--</p>
+                    </div>
+                    <div class="card-t" id="3">
+                        <p class="day">--</p>
+                        <p class="temp">--</p>
+                    </div>
+                    <div class="card-t" id="5">
+                        <p class="day">--</p>
+                        <p class="temp">--</p>
+                    </div>
+                    <div class="card-t" id="7">
+                        <p class="day">--</p>
+                        <p class="temp">--</p>
+                    </div>
+                </div>
+                <br>
+                <button class="location-toggle">Change Location</button>
+            </div>
+        </div>
+    </div>
+    <script src="/index.js"></script>
+</body>
+
+</html>
